@@ -3,21 +3,36 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.138);
 }
 
 h1{
     text-align: center;
-    color:#4a3029;
+    color:#70220efd;
+    font-size:05em;
+    font-weight:900;
+    margin-bottom: 07px;
+   
 }
 
 section{
-    background:#EA8269;
+    background:#ea8369f3;
     box-sizing: border-box;
     border-radius: 10px;
-    padding:50px;
+    padding:30px;
     margin: auto;
     width: 50%;
     height: 50%;
+}
+
+#coman{
+    font-weight:700;
+    font-size: x-large;
+    color: #70220efd;
 }
 
 #dados{
@@ -28,22 +43,42 @@ section{
     border-radius: 10px;
     border: none;
     padding: 05px;
+    font-weight: bolder;
+}
+
+#txti:hover{
+    background-color:#e4441cb5;
 }
 
 #txtf{
     border-radius: 10px;
     border: none;
-    padding: 05px;
+    padding:05px;
+   margin-left: 20px;
+    font-weight: bolder;
 }
+
+#txtf:hover{
+    background-color: #e4441cb5;
+}
+
 
 #txtp{
     border-radius: 10px;
     border: none;
     padding: 05px;
+    font-weight: bolder;
+}
+
+#txtp:hover{
+    background-color: #e4441cb5;
 }
     
 #res{
     margin-top:15px;
+    font-size: x-large;
+    font-weight: bolder;
+    color:#70220efd;
 }
 
 #cont{
@@ -52,8 +87,16 @@ section{
     border: none;
     border-width: 10px;
     padding: 10px 15px;
+    margin-left: 25px;
     font-size: medium;
     text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color:#70220efd;
+}
+
+#cont:hover{
+    background-color:#e4441cb5 ;
 }
 
 
