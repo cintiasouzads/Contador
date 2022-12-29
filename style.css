@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 body{
     background:url(/Imagem/pexels-black-ice-1314543.png);
     background-repeat: no-repeat;
@@ -20,13 +23,14 @@ h1{
 }
 
 section{
+    
     background:#ea8369f3;
     box-sizing: border-box;
     border-radius: 10px;
     padding:30px;
     margin: auto;
-    width: 50%;
-    height: 50%;
+    width:50%;
+    height:50%;
 }
 
 #coman{

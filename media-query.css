@@ -8,108 +8,26 @@ Desktop: 992px até 1200px;
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width:768px) and{
-    body{
-        background:url(/Imagem/pexels-black-ice-1314543.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: Arial, Helvetica, sans-serif;
-       
-    }
+@media screen and (max-width:760px) {
     
-    header{
-        background-color: rgba(255, 255, 255, 0.138);
-        width: 30px;
 
-    
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    
+   
     h1{
-        text-align: center;
-        color:#70220efd;
-        font-size:05em;
-        font-weight:900;
-        margin-bottom: 07px;
-       
-    }
+    font-weight: 200;
+    font-size: 4;
+   } 
+
+   section{
     
-    section{
-        background:#ea8369f3;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding:30px;
-        margin: auto;
-        width: 50%;
-        height: 50%;
-    }
+   
     
-    #coman{
-        font-weight:700;
-        font-size: x-large;
-        color: #70220efd;
-    }
-    
-    #dados{
-        text-align: center;
-    }
-    
-    #txti{
-        border-radius: 10px;
-        border: none;
-        padding: 05px;
-        font-weight: bolder;
-    }
-    
-    #txti:hover{
-        background-color:#e4441cb5;
-    }
-    
-    #txtf{
-        border-radius: 10px;
-        border: none;
-        padding:05px;
-       margin-left: 20px;
-        font-weight: bolder;
-    }
-    
-    #txtf:hover{
-        background-color: #e4441cb5;
-    }
-    
-    
-    #txtp{
-        border-radius: 10px;
-        border: none;
-        padding: 05px;
-        font-weight: bolder;
-    }
-    
-    #txtp:hover{
-        background-color: #e4441cb5;
-    }
-        
-    #res{
-        margin-top:15px;
-        font-size: x-large;
-        font-weight: bolder;
-        color:#70220efd;
-    }
-    
-    #cont{
-        border-radius: 10px;
-        background-color: white;
-        border: none;
-        border-width: 10px;
-        padding: 10px 15px;
-        margin-left: 25px;
-        font-size: medium;
-        text-align: center;
-        font-size: x-large;
-        font-weight: bold;
-        color:#70220efd;
-    }
-    
-    #cont:hover{
-        background-color:#e4441cb5 ;
-    }
+   
 }
+    
+   
