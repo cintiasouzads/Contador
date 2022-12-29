@@ -8,7 +8,7 @@ Desktop: 992px até 1200px;
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (max-width:768px) and{
     body{
         background:url(/Imagem/pexels-black-ice-1314543.png);
         background-repeat: no-repeat;
@@ -19,6 +19,9 @@ Grandes telas: acima de 1200px
     
     header{
         background-color: rgba(255, 255, 255, 0.138);
+        width: 30px;
+
+    
     }
     
     h1{
