@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-color: rgba(255, 255, 255, 0.138);
+    background-color: #ea8369f3;
 }
 
 h1{
@@ -27,10 +27,10 @@ section{
     background:#ea8369f3;
     box-sizing: border-box;
     border-radius: 10px;
-    padding:30px;
+    padding:40px;
     margin: auto;
-    width:50%;
-    height:50%;
+    width:70%;
+    height:70%;
 }
 
 #coman{
@@ -43,38 +43,37 @@ section{
     text-align: center;
 }
 
-#txti{
+#input{
     border-radius: 10px;
     border: none;
     padding: 05px;
     font-weight: bolder;
 }
 
-#txti:hover{
+#input:hover{
     background-color:#e4441cb5;
 }
 
-#txtf{
+#input{
     border-radius: 10px;
     border: none;
-    padding:05px;
-   margin-left: 20px;
+    padding: 05px;
     font-weight: bolder;
 }
 
-#txtf:hover{
+#input:hover{
     background-color: #e4441cb5;
 }
 
 
-#txtp{
+#input{
     border-radius: 10px;
     border: none;
     padding: 05px;
     font-weight: bolder;
 }
 
-#txtp:hover{
+#input:hover {
     background-color: #e4441cb5;
 }
     
@@ -92,8 +91,6 @@ section{
     border: none;
     border-width: 10px;
     padding: 10px 15px;
-    margin-left: 25px;
-    font-size: medium;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
