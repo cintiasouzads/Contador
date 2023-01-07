@@ -1,4 +1,4 @@
 # Contador
- Contador Javascrispt
+*Contador Javascrispt*
  <br>
-Em construção...
+Em construção :warning:
