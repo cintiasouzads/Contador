@@ -2,7 +2,8 @@
 
 
 body{
-    background:url(/Imagem/pexels-black-ice-1314543.png);
+    min-height: 100%;
+    background-color: #F2EBDF;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +11,7 @@ body{
 }
 
 header{
-    background-color: #ea8369f3;
+    background-color: #ea83693e;
 }
 
 h1{
@@ -23,14 +24,13 @@ h1{
 }
 
 section{
-    
     background:#ea8369f3;
     box-sizing: border-box;
     border-radius: 10px;
     padding:40px;
     margin: auto;
     width:70%;
-    height:70%;
+    min-height:100px;
 }
 
 #coman{
@@ -43,12 +43,27 @@ section{
     text-align: center;
 }
 
-#input{
+#txti{
     border-radius: 10px;
     border: none;
     padding: 05px;
     font-weight: bolder;
 }
+
+#txtf{
+    border-radius: 10px;
+    border: none;
+    padding: 05px;
+    font-weight: bolder;
+}
+
+#txtp{
+    border-radius: 10px;
+    border: none;
+    padding: 05px;
+    font-weight: bolder;
+}
+
 
 #input:hover{
     background-color:#e4441cb5;
